@@ -1,0 +1,24 @@
+.navbar {
+	background: url(https://worldsportlogos.com/wp-content/uploads/2018/01/Brooklyn-Nets-Logo.png) center 35% no-repeat #000000;
+	background-size: auto 200% !important;
+}
+
+.nav .dropdown-toggle {
+	background: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.championship {
+	background: #000000 !important;
+	color: #ffffff !important;
+}
+
+	.championship .trophy {
+		color:#ffffff;
+	}
+
+	.btn-primary, .btn-success {
+		background: #000000 !important;
+		border: none;
+		text-decoration: none;
+	}

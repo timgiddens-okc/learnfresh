@@ -1,0 +1,1 @@
+<h1>{{ number_format(\App\ShippingList::where("archived","=",0)->count(DB::raw('DISTINCT order_number'))) }}</h1>

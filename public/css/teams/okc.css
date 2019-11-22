@@ -1,0 +1,23 @@
+.navbar {
+	background: url(https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Oklahoma_City_Thunder.svg/1200px-Oklahoma_City_Thunder.svg.png) center center no-repeat #007AC1;
+	background-size: auto 150% !important;
+}
+
+.nav .dropdown-toggle {
+	background: #EF3B24 !important;
+}
+
+.championship {
+	background: #002D62 !important;
+	color: #fff !important;
+}
+
+	.championship .trophy {
+		color: #FDBB30;
+	}
+
+	.btn-primary, .btn-success {
+		background: #EF3B24 !important;
+		border: none;
+		text-decoration: none;
+	}

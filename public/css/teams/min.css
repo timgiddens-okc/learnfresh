@@ -1,0 +1,23 @@
+.navbar {
+	background: url(https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Minnesota_Timberwolves_logo.svg/1200px-Minnesota_Timberwolves_logo.svg.png) center 40% no-repeat #78BE20;
+	background-size: auto 200% !important;
+}
+
+.nav .dropdown-toggle {
+	background: #0C2340 !important;
+}
+
+.championship {
+	background: #236192 !important;
+	color: #ffffff !important;
+}
+
+	.championship .trophy {
+		color:#78BE20;
+	}
+
+	.btn-primary, .btn-success {
+		background: #0C2340 !important;
+		border: none;
+		text-decoration: none;
+	}

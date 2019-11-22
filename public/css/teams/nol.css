@@ -1,0 +1,23 @@
+.navbar {
+	background: url(https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/New_Orleans_Pelicans_logo.svg/1200px-New_Orleans_Pelicans_logo.svg.png) center center no-repeat #0C2340;
+	background-size: auto 200% !important;
+}
+
+.nav .dropdown-toggle {
+	background: #C8102E !important;
+}
+
+.championship {
+	background: #ffffff !important;
+	color: #0C2340 !important;
+}
+
+	.championship .trophy {
+		color:#85714D;
+	}
+
+	.btn-primary, .btn-success {
+		background: #C8102E !important;
+		border: none;
+		text-decoration: none;
+	}

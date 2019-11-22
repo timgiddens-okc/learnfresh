@@ -1,0 +1,23 @@
+.navbar {
+	background: url(https://i.cdn.turner.com/nba/nba/media/celtics/CelticsLogo_History.gif) center center no-repeat #007A33;
+	background-size: auto 150% !important;
+}
+
+.nav .dropdown-toggle {
+	background: #BA9653 !important;
+}
+
+.championship {
+	background: #ffffff !important;
+	color: #007A33 !important;
+}
+
+	.championship .trophy {
+		color:#BA9653;
+	}
+
+	.btn-primary, .btn-success {
+		background: #007A33 !important;
+		border: none;
+		text-decoration: none;
+	}

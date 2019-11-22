@@ -1,0 +1,23 @@
+.navbar {
+	background: url(https://upload.wikimedia.org/wikipedia/en/f/fb/Miami_Heat_logo.svg) center 40% no-repeat #000000;
+	background-size: auto 200% !important;
+}
+
+.nav .dropdown-toggle {
+	background: #98002E !important;
+}
+
+.championship {
+	background: #000000 !important;
+	color: #ffffff !important;
+}
+
+	.championship .trophy {
+		color:#F9A01B;
+	}
+
+	.btn-primary, .btn-success {
+		background: #98002E !important;
+		border: none;
+		text-decoration: none;
+	}

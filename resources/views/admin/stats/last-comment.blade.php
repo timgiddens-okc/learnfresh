@@ -1,0 +1,1 @@
+<h1>{{ \App\Comment::orderBy('created_at','desc')->first()->created_at->diffForHumans() }}</h1>

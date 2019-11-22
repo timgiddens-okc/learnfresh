@@ -1,0 +1,23 @@
+.navbar {
+	background: url(../../team-logos/broncos.png) center center no-repeat #FC4C02;
+	background-size: auto 300% !important;
+}
+
+.nav .dropdown-toggle {
+	background: #0C2340 !important;
+}
+
+.championship {
+	background: #FC4C02 !important;
+	color: #fff !important;
+}
+
+	.championship .trophy {
+		color: #FFF;
+	}
+
+	.btn-primary, .btn-success {
+		background: #0C2340 !important;
+		border: none;
+		text-decoration: none;
+	}

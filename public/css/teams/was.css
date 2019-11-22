@@ -1,0 +1,23 @@
+.navbar {
+	background: url(https://worldsportlogos.com/wp-content/uploads/2018/03/Washington-Wizards-symbol.png) center 40% no-repeat #002B5C;
+	background-size: auto 200% !important;
+}
+
+.nav .dropdown-toggle {
+	background: #E31837 !important;
+}
+
+.championship {
+	background: #C4CED4 !important;
+	color: #000000 !important;
+}
+
+	.championship .trophy {
+		color:#002B5C;
+	}
+
+	.btn-primary, .btn-success {
+		background: #E31837 !important;
+		border: none;
+		text-decoration: none;
+	}

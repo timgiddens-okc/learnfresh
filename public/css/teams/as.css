@@ -1,0 +1,24 @@
+.navbar {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Oakland_A%27s_logo.svg/1200px-Oakland_A%27s_logo.svg.png) center center no-repeat #EFB21E;
+	background-size: auto 125% !important;
+}
+
+.nav .dropdown-toggle {
+	background: #003831 !important;
+}
+
+.championship {
+	background: #fff !important;
+	color: #000 !important;
+}
+
+	.championship .trophy {
+		color: #EFB21E;
+	}
+
+	.btn-primary, .btn-success {
+		background: #003831 !important;
+		border: none;
+		color: #fff !important;
+		text-decoration: none;
+	}

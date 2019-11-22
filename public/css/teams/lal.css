@@ -1,0 +1,23 @@
+.navbar {
+	background: url(https://www.nba.com/.element/img/1.0/teamsites/logos/teamlogos_500x500/lal.png) center center no-repeat #FDB927;
+	background-size: auto 200% !important;
+}
+
+.nav .dropdown-toggle {
+	background: #552583 !important;
+}
+
+.championship {
+	background: #552583 !important;
+	color: #ffffff !important;
+}
+
+	.championship .trophy {
+		color:#FDB927;
+	}
+
+	.btn-primary, .btn-success {
+		background: #552583 !important;
+		border: none;
+		text-decoration: none;
+	}

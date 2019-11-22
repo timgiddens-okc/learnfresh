@@ -1,0 +1,916 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "../../../node_modules/flipclock/compiled/flipclock.css";
+
+// Font Awesome
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+body {
+  background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Trade Gothic Condensed", sans-serif;
+	text-transform: uppercase;
+}
+
+.not-rich {
+	resize: none;
+}
+
+#six-and-over {
+	display: none;
+}
+
+.address-container {
+	display: none;
+}
+
+#sortable li {
+	cursor: pointer;
+}
+
+.shotclock {
+	background: #1f3975;
+	color: #fff !important;
+	display: block;
+	margin-bottom: 25px;
+	padding: 20px;
+}
+
+	.shotclock h2 {
+		margin-bottom: 0px;
+	}
+
+	.shotclock img {
+		width: 75px; height: auto;
+	}
+
+	.shotclock-border {
+		border: 7px solid #fff;
+		padding: 30px 20px;
+	}
+
+.countdown-to-championship {
+	background: #f2f2f2;
+	color: #000 !important;
+	display: block;
+	padding: 30px 20px;
+	margin-bottom: 35px;
+	text-decoration: none !important;
+}
+
+	.countdown-to-championship img {
+		max-width: 75px; width: 100%; height: auto;
+	}
+	
+	.countdown-to-championship p {
+		margin-bottom: 0px;
+	}
+
+.container {
+	width: 1170px !important;
+}
+
+.championship-details img {
+	max-width: 100%; width: 100%; height: auto;
+}
+
+	.championship-details .block {
+		margin-top: 50px;
+	}
+	
+.championship-location {
+	font: normal 1.6em/1em "Trade Gothic", sans-serif;
+	letter-spacing: 0.025em;
+	margin: 0px 0px 35px 0px;
+	text-transform: none;
+}
+
+.resource-list {
+	overflow: auto;
+	height: 300px;
+}
+
+.intro-text {
+  font-family: "Trade Gothic", sans-serif;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.intro-block {
+  margin-top: 50px;
+}
+
+.intro-block img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.navbar-right {
+  margin-right: 0px;
+}
+
+.nav a {
+  color: #000;
+  font-family: "Trade Gothic", sans-serif;
+}
+
+.nav .dropdown-toggle {
+  background: #000 !important;
+  color: #fff !important;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+.btn {
+  border-radius: 0px;
+  font-family: "Trade Gothic Condensed", sans-serif;
+  letter-spacing: 0.05em;
+  padding-top: 8px;
+  text-transform: uppercase;
+}
+
+.btn-primary,
+.btn-success {
+  background: #000000;
+  border-color: #333;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+  background: #333;
+}
+
+.expanded {
+  width: 100%;
+}
+
+.panel {
+  border-radius: 0px;
+}
+
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.community {
+	margin-top: 75px;
+}
+
+	.community h1 {
+		margin-bottom: 0px;
+	}
+
+footer .container {
+  border: none;
+  font-size: .9em;
+  margin-top: 50px;
+  padding: 50px 0px;
+}
+
+@media (max-width: 768px) {
+  footer .social-media {
+    text-align: center;
+  }
+}
+
+footer .social-media a {
+  color: #fff;
+  font-size: 1.25em;
+  margin-left: 7px;
+}
+
+.vcenter {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+
+/* Panels */
+
+.weeks {
+  -ms-background-size: 50% auto !important;
+  background-size: 50% auto !important;
+  padding: 25px;
+  position: relative;
+  min-height: 310px;
+}
+
+.weeks h1,
+.weeks h2,
+.weeks h3,
+.weeks h4,
+.weeks h5,
+.weeks h6 {
+  color: #000000;
+}
+
+.weeks p {
+  color: #333;
+}
+
+.weeks h2 {
+  font-weight: 700;
+  margin: 10px 0px 30px 0px;
+}
+
+.weeks .action-items p {
+  color: #333;
+}
+
+
+p a {
+	color: #000000;
+	text-decoration: underline;
+}
+
+
+.banner {
+	background: #f2f2f2;
+	width: 100%; height: 600px;
+}
+
+.featured-resource {
+  margin-top: 25px;
+}
+
+.featured-resource p {
+  margin: 5px 0px 10px 0px;
+}
+
+.weeks .btn {
+  margin-bottom: 10px;
+}
+
+.actions {
+  margin: 25px 0px;
+}
+
+.actions a {
+  margin: 0px 5px;
+}
+
+.champion-select .col-md-3 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.champion-select img {
+  max-width: 100%;
+  height: auto;
+}
+
+.champion-select label {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  -webkit-transition: border 250ms ease;
+  transition: border 250ms ease;
+}
+
+.champion-select label.active {
+  border-color: #ccc;
+}
+
+.champion-select input[type='radio'] {
+  display: none;
+}
+
+.survey-options {
+  font-size: 0.9em;
+}
+
+.survey-options .checkbox-inline {
+  padding-left: 0px;
+}
+
+.grids {
+	margin-top: 10px;
+}
+
+.hidden-student {
+	display: none;
+}
+
+.grids img {
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.list-group-item p:last-child {
+  margin-bottom: 0px;
+}
+
+.resource p {
+  margin-top: 10px;
+}
+
+.resources .btn {
+  margin-top: 15px;
+}
+
+.edit {
+  color: #f29035 !important;
+  margin-right: 5px;
+}
+
+.delete {
+  color: #d60a0a !important;
+}
+
+.btn.delete {
+  color: #fff !important;
+}
+
+.hour {
+  margin-left: 25px;
+}
+
+.google-map {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 200px;
+}
+
+.event-block {
+  margin-bottom: 25px;
+}
+
+.event-image {
+	display: block;
+	margin-bottom: 15px;
+	padding-top: 100%;
+	width: 100%;
+	
+	-webkit-background-size: cover !important;
+		 -moz-background-size: cover !important;
+		 	-ms-background-size: cover !important;
+		 			background-size: cover !important;
+}
+
+.event-title {
+  padding: 25px 0px;
+  width: 100%;
+}
+
+.delete-image {
+	padding: 0px;
+	-webkit-appearance: none;
+	border: none;
+	background: none;
+}
+
+.upcoming-event,
+.event-title {
+  color: #000 !important;
+  display: block;
+  position: relative;
+  -ms-background-size: auto 125% !important;
+  background-size: auto 125% !important;
+}
+
+.upcoming-event:after,
+.event-title:after,
+.weeks:after {
+  background: rgba(255, 255, 255, 0.9);
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.event-list .upcoming-event {
+  margin-top:11px;
+}
+
+.weeks:after {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.upcoming-event .row,
+.event-title .row,
+.weeks .row, .bxslider li .row {
+  position: relative;
+  z-index: 900;
+}
+
+.bx-wrapper {
+	margin-bottom: 0px !important;
+	z-index: 900;
+}
+
+.upcoming-event h5 {
+  margin-top: 0px;
+}
+
+.already-rsvp {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.download-list,
+.delete-event {
+  margin-top: 10px;
+}
+
+.upcoming-event .month {
+  font-family: "Trade Gothic Condensed", sans-serif;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.tweet p {
+  word-break: break-word;
+}
+
+.tweet h5 {
+  color: #000000;
+}
+
+.tweet .image {
+  margin-bottom: 10px;
+}
+
+.tweet .image img {
+  width: 100%;
+  height: auto;
+}
+
+.panel.checkpoint {
+  background: #00b820;
+}
+
+@media (max-width: 991px) {
+  .panel.checkpoint {
+    text-align: center;
+  }
+}
+
+.panel.checkpoint h4,
+.panel.checkpoint p {
+  color: #fff;
+}
+
+.panel.checkpoint .btn {
+  background: #00873d;
+  border-color: #007b17;
+  color: #fff;
+}
+
+.panel.checkpoint .btn:hover {
+  background: #007d18;
+}
+
+.icon {
+  display: inline-block;
+  max-width: 100px;
+  width: 100%;
+}
+
+.files {
+	border-top: 1px solid #eee;
+	margin-top: 25px;
+	padding-top: 15px;
+}
+
+.file-background {
+	background: url(/images/file-placeholder.png) center center no-repeat #f2f2f2;
+}
+
+.student input {
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  overflow: hidden;
+  border-radius: 300px 300px 300px 300px;
+}
+
+.profile-pic img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.tweets {
+  margin-top: 15px;
+}
+
+.tweets h5 {
+  line-height: 1.4em;
+  margin: 0px;
+}
+
+.complete-pretest {
+  background: none !important;
+  border: 1px solid #000 !important;
+  color: #000 !important;
+}
+
+.take-pretest, .take-posttest {
+  font-size: 2em;
+}
+
+.tweet-container {
+  border: 1px solid #e6e5e5;
+  height: auto;
+  max-height: 450px;
+  overflow-x: hidden;
+}
+
+.tweet-container .list-group {
+  border: none;
+}
+
+.tweet-container .list-group-item {
+  border: none;
+  border-top: 1px solid #e6e5e5;
+}
+
+.tweet-container .list-group-item:first-child {
+  border: none;
+}
+
+.event-logo,
+.event-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.event-title h3 {
+  margin-top: 0px;
+}
+
+.event-title h4 {
+  margin-bottom: 0px;
+}
+
+.event-logo {
+  margin: 10px 10px 10px 0px;
+}
+
+.event-logo img {
+  width: auto;
+  height: 70px;
+}
+
+.sort-users {
+  margin-bottom: 20px;
+}
+
+.sort-users button {
+  margin-top: 10px;
+}
+
+.navbar-header {
+  width: 100% !important;
+}
+
+.logo {
+  display: inline-block;
+  padding: 10px 0px;
+  max-width: 100px;
+  width: 100%;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.weeks {
+  display: none;
+}
+
+.week-program-logo {
+  display: inline-block;
+  margin-bottom: 10px;
+  max-width: 60px;
+  width: 100%;
+}
+
+.week-program-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.weeks.active {
+  display: block;
+}
+
+.tweet-title {
+  border-bottom: 1px solid #e6e5e5;
+  font-family: "Trade Gothic Condensed", sans-serif;
+  padding: 10px 15px 5px 15px;
+  text-transform: uppercase;
+}
+
+.tweet-title .twitter {
+  color: #55acee;
+  font-size: 1.5em;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.assessment-viewport {
+  overflow: hidden;
+}
+
+.assessment-container {
+  position: relative;
+  left: 0px;
+  width: 9000px;
+  -webkit-transition: left 300ms ease;
+  transition: left 300ms ease;
+}
+
+.assessment-panel {
+  float: left;
+  padding: 15px;
+}
+
+.feature-resource {
+  display: none;
+}
+
+.feature-resource.active {
+  display: block;
+}
+
+#change-program {
+  margin-bottom: 15px;
+}
+
+.calendar {
+  color: #000 !important;
+}
+
+.calendar .event-logo {
+  width: 100%;
+}
+
+.calendar .event-logo img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.testimonial-photo {
+	margin: 20px 0px;
+}
+
+	.testimonial-photo img {
+		max-width: 100%; width: 100%; height: auto;
+	}
+	
+.share-bar {
+	background: #f2f2f2;
+	cursor: pointer;
+	margin-top: 50px;
+	padding: 35px 0px;
+}
+
+	.share-bar h3 {
+		margin-top: 0px;
+	}
+	
+	.share-bar p {
+		margin-bottom: 0px;
+	}
+	
+	.share-bar .heart {
+		color: #dd1d1d;
+		font-size: 1.5em;
+		margin-bottom: 10px;
+	}
+	
+#countdown {
+	display: inline-block;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+	#countdown.flip-clock-wrapper {
+		width: auto !important;
+	}
+	
+	.days .flip-clock-label {
+		right: -118px !important;
+	}
+	
+.no-margin-top .container {
+	margin-top: 0px !important;
+}
+
+.testimonials {
+	margin-top: 50px;
+}
+
+.program-logo {
+  display: inline-block;
+  max-width: 100px;
+  width: 100%;
+}
+
+.program-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.resource-logo {
+  display: inline-block;
+  margin-right: 10px;
+  max-width: 40px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.resource-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.file-preview {
+	box-shadow: 0px 0px 10px rgba(0,0,0,0);
+	cursor: pointer;
+	display: inline-block;
+	padding-top: 100%;
+	width: 100%;
+	
+	-webkit-transition: all 250ms ease;
+		 -moz-transition: all 250ms ease;
+		 	-ms-transition: all 250ms ease;
+		 			transition: all 250ms ease;
+	
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-ms-background-size: cover !important;
+	background-size: cover !important;
+}
+
+	.file-preview:hover {
+		box-shadow: 0px 0px 10px rgba(0,0,0,.15);
+	}
+
+.championship {
+	background: #f2f2f2;
+	color: #000;
+	display: block;
+	
+	#countdown-holder {
+		display: inline-block;
+		font: normal 3em/1em "Trade Gothic Condensed", sans-serif;
+		margin-top: 10px;
+		text-transform: uppercase;
+		
+		.days, .hours, .minutes, .seconds {
+			display: inline-block;
+			margin: 0px 10px;
+			
+			span {
+				display: block;
+				font-family: "Trade Gothic", sans-serif;
+				font-size: 0.3em;
+				letter-spacing: 0.25em;
+				line-height: 1em;
+			}
+		}
+	}
+	
+	h3 {
+		margin-top: 5px;
+	}
+}
+
+.championship:hover, .championship:active, championship:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+.stat-container {
+	margin-top: 35px;
+}
+
+.stats h1 {
+	font-size: 3.5em;
+	margin: 0px;
+}
+
+.trophy {
+	color: #eedc12;
+	font-size: 2.5em;
+}
+
+.assessment-metrics h1 {
+	margin: 0px;
+}
+
+.hide-text {
+	display: none;
+}
+
+.toggle-week-text {
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: underline;
+}
+
+.event-pagination {
+	text-align: center;
+}
+
+	.event-pagination .pagination {
+		margin: 5px 0px 0px 0px;
+	}
+	
+.event-list table {
+	table-layout: fixed;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  footer .logo-container {
+    text-align: center;
+  }
+}
+
+footer .logo {
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: 'Trade Gothic';
+  src: url("/fonts/TradeGothicLT-BoldTwo.eot");
+  src: url("/fonts/TradeGothicLT-BoldTwo.eot?#iefix") format("embedded-opentype"), url("/fonts/TradeGothicLT-BoldTwo.woff") format("woff"), url("/fonts/TradeGothicLT-BoldTwo.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trade Gothic';
+  src: url("/fonts/TradeGothicLT-BoldTwoOblique.eot");
+  src: url("/fonts/TradeGothicLT-BoldTwoOblique.eot?#iefix") format("embedded-opentype"), url("/fonts/TradeGothicLT-BoldTwoOblique.woff") format("woff"), url("/fonts/TradeGothicLT-BoldTwoOblique.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Trade Gothic';
+  src: url("/fonts/TradeGothicLT-Oblique.eot");
+  src: url("/fonts/TradeGothicLT-Oblique.eot?#iefix") format("embedded-opentype"), url("/fonts/TradeGothicLT-Oblique.woff") format("woff"), url("/fonts/TradeGothicLT-Oblique.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Trade Gothic Condensed';
+  src: url("/fonts/TradeGothic-BoldCondTwenty.eot");
+  src: url("/fonts/TradeGothic-BoldCondTwenty.eot?#iefix") format("embedded-opentype"), url("/fonts/TradeGothic-BoldCondTwenty.woff") format("woff"), url("/fonts/TradeGothic-BoldCondTwenty.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trade Gothic';
+  src: url("/fonts/TradeGothicLT.eot");
+  src: url("/fonts/TradeGothicLT.eot?#iefix") format("embedded-opentype"), url("/fonts/TradeGothicLT.woff") format("woff"), url("/fonts/TradeGothicLT.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

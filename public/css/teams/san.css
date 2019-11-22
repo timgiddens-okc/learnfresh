@@ -1,0 +1,23 @@
+.navbar {
+	background: url(https://www.nba.com/resources/static/team/v2/spurs/Schad/img/PostgameTeams/SAS.png) center 40% no-repeat #C4CED4;
+	background-size: auto 200% !important;
+}
+
+.nav .dropdown-toggle {
+	background: #000000 !important;
+}
+
+.championship {
+	background: #C4CED4 !important;
+	color: #000000 !important;
+}
+
+	.championship .trophy {
+		color:#000000;
+	}
+
+	.btn-primary, .btn-success {
+		background: #000000 !important;
+		border: none;
+		text-decoration: none;
+	}

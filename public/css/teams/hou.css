@@ -1,0 +1,23 @@
+.navbar {
+	background: url(https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Houston_Rockets.svg/1200px-Houston_Rockets.svg.png) center center no-repeat #C4CED4;
+	background-size: auto 150% !important;
+}
+
+.nav .dropdown-toggle {
+	background: #CE1141 !important;
+}
+
+.championship {
+	background: #C4CED4 !important;
+	color: #000000 !important;
+}
+
+	.championship .trophy {
+		color:#CE1141;
+	}
+
+	.btn-primary, .btn-success {
+		background: #CE1141 !important;
+		border: none;
+		text-decoration: none;
+	}

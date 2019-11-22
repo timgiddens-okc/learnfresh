@@ -1,0 +1,23 @@
+.navbar {
+	background: url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/por.png) center center no-repeat #E13A3E;
+	background-size: auto 300% !important;
+}
+
+.nav .dropdown-toggle {
+	background: #000000 !important;
+}
+
+.championship {
+	background: #E13A3E !important;
+	color: #fff !important;
+}
+
+	.championship .trophy {
+		color:#C4CED4;
+	}
+
+	.btn-primary, .btn-success {
+		background: #000000 !important;
+		border: none;
+		text-decoration: none;
+	}
